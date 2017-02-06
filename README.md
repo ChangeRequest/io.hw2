@@ -29,7 +29,7 @@ public static void main(String[] args){
   long before = System.currentTimeMillis();
   // do some stuff
   long after = System.currentTimeMillis();
-  System.out.println("Result:"+after-before);
+  System.out.println("Result:"+(after-before));
 }
 ```
 
