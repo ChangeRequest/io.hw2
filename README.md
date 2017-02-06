@@ -19,3 +19,20 @@ implementation to copy demo file.
 Be sure to handle possible exceptions properly.
 
 Create jUnit tests for each of your implementation.
+
+
+#### Performance testing
+
+The easiest way to make some performance testing is to measure time used for execution of your functionality using timestamps "before" and "after" execution of your code:
+```java
+public static void main(String[] args){
+  long before = System.currentTimeMillis();
+  // do some stuff
+  long after = System.currentTimeMillis();
+  System.out.println("Result:"+after-before);
+}
+```
+
+But such measurment won't be very accurate, due to possible JVM optimizations. To be sure that JVM have already perform all its bytecode optimizations and prepare more accurate result try to measure execution time of your code 1000-10000 times and calculate average execution time.
+
+Additionally, add `-server` JVM option while executing your performance test.
