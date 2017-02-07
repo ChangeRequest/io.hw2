@@ -1,7 +1,6 @@
-IO. Home Work 2
+IO. Home Work 2 [![Join the chat at https://gitter.im/changerequest/io.hw2](https://badges.gitter.im/changerequest/io.hw2.svg)](https://gitter.im/changerequest/io.hw2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ===============
 
-[![Join the chat at https://gitter.im/changerequest/io.hw2](https://badges.gitter.im/changerequest/io.hw2.svg)](https://gitter.im/changerequest/io.hw2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 1\. FileCopyUtil
 
 Create 4 implementations of `FileCopyUtil` interface that implements `copy`
